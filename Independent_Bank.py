@@ -1,5 +1,4 @@
 # importing important libraries
-
 import tkinter as tk
 import mysql.connector as mysql
 from tkinter import *
@@ -2171,3 +2170,4 @@ if __name__ == '__main__':
     app.geometry('1920x1080')
     app.title('INDEPENDENT_BANK')
     app.mainloop()
+
