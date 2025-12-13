@@ -11,10 +11,7 @@ password = None
 
 #establishing connection between python and mysql
 
-connector = mysql.connect(host='localhost',
-                          user = 'root',
-                          passwd = 'Papaji',
-                          database = 'Independent_Bank')
+connector = mysql.connect(host='localhost',user = 'root',passwd = 'Papaji',database = 'Independent_Bank')
 
 mycursor = connector.cursor()
 
@@ -2170,4 +2167,5 @@ if __name__ == '__main__':
     app.geometry('1920x1080')
     app.title('INDEPENDENT_BANK')
     app.mainloop()
+
 
